@@ -5,6 +5,8 @@ import pandas as pd
 from pathlib import Path
 from tqdm.auto import tqdm
 
+#base_url = "https://api.github.com/repos/{owner}/{repo}/issues?page=1&per_page=1"
+# Add headers before excuting the function
 def fetch_issues(
     owner='huggingface',
     repo='datasets',
